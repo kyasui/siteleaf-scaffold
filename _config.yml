@@ -21,3 +21,5 @@ defaults:
   values:
     layout: page
 permalink: pretty
+destination: public
+source: src
