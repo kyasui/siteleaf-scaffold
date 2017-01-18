@@ -31,10 +31,6 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - webpack.config.js
-gems:
-- jekyll-assets
-- jekyll-sitemap
-- autoprefixer-rails
 assets:
   autoprefixer:
     browsers:
@@ -64,3 +60,7 @@ assets:
   #  integrity: true | false | default: false
   #  automatic_img_size: true | false | n(fixnum): 2,4,6,8 | default: true
   #  automatic_img_alt : true | false | default: true
+gems:
+- jekyll-sitemap
+- jekyll-assets
+- autoprefixer-rails
