@@ -4,5 +4,6 @@ _site
 bower_components
 *.sassc
 .sass-cache
+.assets-cache
 assets/fonts
 .jekyll-metadata
