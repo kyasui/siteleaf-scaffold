@@ -28,8 +28,6 @@ exclude:
 - bower_components/
 - package.json
 - npm-debug.log
-- Gemfile
-- Gemfile.lock
 - webpack.config.js
 assets:
   autoprefixer:
