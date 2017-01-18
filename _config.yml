@@ -38,29 +38,20 @@ gems:
 assets:
   autoprefixer:
     browsers:
-      - "last 2 versions"
-      - "IE > 9"
+    - last 2 versions
+    - IE > 9
   compress:
     css: default
     js: default
-
   autowrite: true
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
   prefix: "/assets"
   digest: true
-
   assets:
-    - "bundle.js"
-
+  - bundle.js
   sources:
-    - _assets/images
-    - _assets/js/dist
-    - _assets/styles
-    - _assets/fonts
-
-  #features:
-  #  liquid: true | false | default: false
-  #  integrity: true | false | default: false
-  #  automatic_img_size: true | false | n(fixnum): 2,4,6,8 | default: true
-  #  automatic_img_alt : true | false | default: true
+  - _assets/images
+  - _assets/js/dist
+  - _assets/styles
+  - _assets/fonts
