@@ -34,22 +34,20 @@ exclude:
 assets:
   autoprefixer:
     browsers:
-      - "last 2 versions"
-      - "IE > 9"
+    - last 2 versions
+    - IE > 9
   compress:
     css: default
     js: default
-
   autowrite: true
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
   prefix: "/assets"
   digest: true
-
   assets:
-    - "bundle.js"
-
+  - bundle.js
   sources:
+<<<<<<< HEAD
     - _assets/images
     - _assets/js/dist
     - _assets/styles
@@ -64,3 +62,9 @@ gems:
 - jekyll-sitemap
 - jekyll-assets
 - autoprefixer-rails
+=======
+  - _assets/images
+  - _assets/js/dist
+  - _assets/styles
+  - _assets/fonts
+>>>>>>> 2d5b30afb95ab9cf7fdad14826108f1a912c1294
